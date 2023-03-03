@@ -1,0 +1,45 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.actionable_compatible_property.enabled=true
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+dalvik.vm.dex2oat-minidebuginfo=true
+debug.atrace.tags.enableflags=0
+ro.audio.usb.period_us=16000
+ro.camera.api1.max_preview_size=960x540
+ro.mediatek.platform=MT6739
+ro.mediatek.version.branch=alps-mp-p0.mp1
+ro.opa.eligible_device=true
+ro.setupwizard.mode=OPTIONAL
+setupwizard.feature.predeferred_enabled=false
+ro.com.google.gmsversion=9_201906
+persist.vendor.vzw_device_type=0
+ro.com.android.mobiledata=false
+ro.base_build=noah
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Fri Sep 20 18:15:17 CST 2019
+ro.bootimage.build.date.utc=1568974517
+ro.bootimage.build.fingerprint=Lenovo/LenovoTB-7305X_S/7305X:9/PPR1.180610.011/S000030_190920_ROW:user/release-keys
+ro.mediatek.version.release=TB-7305X_S000030_190920_ROW
+persist.sys.usb.config=none

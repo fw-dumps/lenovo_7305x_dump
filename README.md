@@ -1,0 +1,14 @@
+# full_mt8765_P-user 9 PPR1.180610.011 2 release-keys
+- manufacturer: lenovo
+- platform: mt6739
+- codename: 7305X
+- flavor: full_mt8765_P-user
+- release: 9
+- id: PPR1.180610.011
+- incremental: TB-7305X_S000030_190920_ROW
+- tags: release-keys
+- fingerprint: Lenovo/LenovoTB-7305X_S/7305X:9/PPR1.180610.011/S000030_190920_ROW:user/release-keys
+- is_ab: false
+- brand: Lenovo
+- branch: full_mt8765_P-user-9-PPR1.180610.011-2-release-keys
+- repo: lenovo_7305x_dump
